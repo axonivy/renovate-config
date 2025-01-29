@@ -1,0 +1,11 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Keep dependencies on all active branches up-to-date",
+    "extends": [
+        "config:recommended"
+    ],
+    "baseBranches": [
+        "master",
+        "/^release\\/.*/"
+    ]
+}
