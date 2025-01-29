@@ -14,7 +14,7 @@ branches.
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>axonivy/renovate"
+    "github>axonivy/renovate-config"
   ]
 }
 ```
