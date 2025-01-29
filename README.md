@@ -18,3 +18,16 @@ branches.
   ]
 }
 ```
+
+## php
+
+This preset is used to update dependencies and auto-merge dev dependencies.
+
+```json
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "local>axonivy/renovate-config:php"
+  ]
+}
+```
