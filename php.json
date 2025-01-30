@@ -7,6 +7,9 @@
     "baseBranches": [
         "master"
     ],
+    "lockFileMaintenance": {
+        "enabled": true
+    },
     "packageRules": [
         {
             "automerge": true,
