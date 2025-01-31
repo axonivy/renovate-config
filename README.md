@@ -31,3 +31,16 @@ This preset is used to update dependencies and auto-merge dev dependencies.
   ]
 }
 ```
+
+## npm
+
+This preset is used to keep NPM repositories up-to-date.
+
+```json
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "local>axonivy/renovate-config:npm"
+  ]
+}
+```
