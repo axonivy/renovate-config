@@ -30,6 +30,11 @@
                 "major"
             ],
             "enabled": false
-        }
+        },
+        {
+            "description": "Do not update volta, only for local development not every new node version should be installed",
+            "matchDepTypes": ["volta"],
+            "enabled": false
+          }
     ]
 }
