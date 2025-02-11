@@ -12,6 +12,7 @@
     "labels": [
         "dependencies"
     ],
+    "semanticCommits": "disabled",
     "packageRules": [
         {
             "description": "Disable major upgrades for release branches",

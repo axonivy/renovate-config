@@ -12,6 +12,7 @@
     "labels": [
         "dependencies"
     ],
+    "semanticCommits": "disabled",
     "packageRules": [
         {
             "description": "Do not update own packages",

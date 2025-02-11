@@ -13,6 +13,7 @@
     "labels": [
         "dependencies"
     ],
+    "semanticCommits": "disabled",
     "packageRules": [
         {
             "automerge": true,
