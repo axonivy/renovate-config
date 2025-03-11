@@ -33,9 +33,20 @@
             "enabled": false
         },
         {
+            "description": "Sync updates of Playwright package and its Docker image.",
+            "matchPackageNames": [
+                "@playwright/test",
+                "mcr.microsoft.com/playwright"
+            ],
+            "automerge": true,
+            "groupName": "playwright.tests"
+        },
+        {
             "description": "Do not update volta, only for local development not every new node version should be installed",
-            "matchDepTypes": ["volta"],
+            "matchDepTypes": [
+                "volta"
+            ],
             "enabled": false
-          }
+        }
     ]
 }
