@@ -25,5 +25,12 @@
             ],
             "enabled": false
         }
+    ],
+    "hostRules": [
+        {
+            "description": "Disable resolving dependencies from internal package repository",
+            "matchHost": "p2.mirror.ivyteam.io",
+            "enabled": false
+        }
     ]
 }
