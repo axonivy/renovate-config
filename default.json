@@ -31,6 +31,11 @@
             "description": "Disable resolving dependencies from internal package repository",
             "matchHost": "p2.mirror.ivyteam.io",
             "enabled": false
-        }
+        },
+        {
+            "description": "Disable resolving dependencies from internal package repository",
+            "matchHost": "p2.ivyteam.io",
+            "enabled": false
+        }        
     ]
 }
