@@ -2,8 +2,11 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "description": "Keep dependencies on all active branches up-to-date",
     "extends": [
-        "config:recommended"
+        "config:recommended",
+        "schedule:earlyMondays",
+        ":disableRateLimiting"
     ],
+    "timezone": "Europe/Zurich",
     "baseBranches": [
         "master",
         "release/12.0",
