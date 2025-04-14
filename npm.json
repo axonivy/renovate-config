@@ -50,6 +50,16 @@
                 "volta"
             ],
             "enabled": false
-        }
+        },
+        {
+            "description": "Disable all non easy upgradable packages",
+            "matchDepNames": [
+                "@codingame/*", 
+                "monaco-editor*", 
+                "monaco-languageclient", 
+                "@eclipse-glsp/*"
+            ],
+            "enabled": false
+        },
     ]
 }
