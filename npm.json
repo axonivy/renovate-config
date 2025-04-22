@@ -60,6 +60,6 @@
                 "@eclipse-glsp/*"
             ],
             "enabled": false
-        },
+        }
     ]
 }
