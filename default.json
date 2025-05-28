@@ -26,6 +26,13 @@
                 "major"
             ],
             "enabled": false
+        },
+        {
+            "description": "Disable ivy-project-parent upgrades",
+            "matchPackageNames": [
+                "com.axonivy.ivy.api:ivy-project-parent"
+            ],
+            "enabled": false
         }
     ],
     "hostRules": [
