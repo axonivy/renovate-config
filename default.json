@@ -6,7 +6,6 @@
     ],
     "baseBranches": [
         "master",
-        "release/13.1",
         "release/12.0",
         "release/10.0"
     ],
@@ -18,7 +17,6 @@
         {
             "description": "Disable major upgrades for release branches",
             "matchBaseBranches": [
-                "release/13.1",
                 "release/12.0",
                 "release/10.0"
             ],
