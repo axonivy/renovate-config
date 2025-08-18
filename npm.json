@@ -16,6 +16,7 @@
         "dependencies"
     ],
     "semanticCommits": "disabled",
+    "postUpdateOptions": ["pnpmDedupe"],
     "packageRules": [
         {
             "description": "Do not update own packages",
