@@ -17,6 +17,20 @@
     ],
     "semanticCommits": "disabled",
     "postUpdateOptions": ["pnpmDedupe"],
+    "customManagers": [
+        {
+            "description": "Update npm global packages in Dockerfile",
+            "customType": "regex",
+            "managerFilePatterns": [
+                "/Dockerfile/"
+            ],
+            "matchStrings": [
+                "RUN\\s+npm install -g (?<depName>\\S+)@(?<currentValue>\\d+\\.\\d+\\.\\d+)"
+            ],
+            "datasourceTemplate": "npm",
+            "versioningTemplate": "semver"
+        }
+    ],
     "packageRules": [
         {
             "description": "Do not update own packages",
