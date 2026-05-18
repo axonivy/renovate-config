@@ -73,7 +73,8 @@
                 "monaco-editor*", 
                 "monaco-languageclient", 
                 "@eclipse-glsp/*",
-                "sprotty*"
+                "sprotty*",
+                "inversify"
             ],
             "enabled": false
         }
