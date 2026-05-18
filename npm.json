@@ -72,7 +72,8 @@
                 "@codingame/*", 
                 "monaco-editor*", 
                 "monaco-languageclient", 
-                "@eclipse-glsp/*"
+                "@eclipse-glsp/*",
+                "sprotty*"
             ],
             "enabled": false
         }
