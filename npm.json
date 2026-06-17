@@ -17,6 +17,9 @@
     ],
     "semanticCommits": "disabled",
     "postUpdateOptions": ["pnpmDedupe"],
+    "toolSettings": {
+      "nodeMaxMemory": 1024
+    },
     "customManagers": [
         {
             "description": "Update npm global packages in Dockerfile",
