@@ -4,7 +4,7 @@
     "extends": [
         "config:recommended"
     ],
-    "baseBranches": [
+    "baseBranchPatterns": [
         "master"
     ],
     "lockFileMaintenance": {
