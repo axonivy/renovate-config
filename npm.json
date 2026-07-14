@@ -17,9 +17,6 @@
     ],
     "semanticCommits": "disabled",
     "postUpdateOptions": ["pnpmDedupe"],
-    "toolSettings": {
-      "nodeMaxMemory": 2048
-    },
     "customManagers": [
         {
             "description": "Update npm global packages in Dockerfile",
@@ -61,13 +58,6 @@
             ],
             "automerge": true,
             "groupName": "playwright.tests"
-        },
-        {
-            "description": "Do not update volta, only for local development not every new node version should be installed",
-            "matchDepTypes": [
-                "volta"
-            ],
-            "enabled": false
         },
         {
             "description": "Disable all non easy upgradable packages",
