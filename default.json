@@ -31,6 +31,16 @@
                 "com.axonivy.ivy.api:ivy-project-parent"
             ],
             "enabled": false
+        },
+        {
+            "description": "Disable jakarta version upgrades",
+            "matchPackageNames": [
+                "com.axonivy.ivy.ci:project-build-plugin",
+                "com.axonivy.ivy.webtest:web-tester",
+                "com.axonivy.ivy.api:ivy-api-bom"
+            ],
+            "allowedVersions": "14.0.0-jakarta-SNAPSHOT"
+            "enabled": false
         }
     ],
     "hostRules": [
