@@ -39,7 +39,7 @@
                 "com.axonivy.ivy.webtest:web-tester",
                 "com.axonivy.ivy.api:ivy-api-bom"
             ],
-            "allowedVersions": "14.0.0-jakarta-SNAPSHOT"
+            "allowedVersions": "14.0.0-jakarta-SNAPSHOT",
             "enabled": false
         }
     ],
