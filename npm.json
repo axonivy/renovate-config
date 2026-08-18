@@ -60,14 +60,23 @@
             "groupName": "playwright.tests"
         },
         {
-            "description": "Disable all non easy upgradable packages",
+            "description": "Disable all non-easy upgradable packages",
             "matchDepNames": [
                 "@codingame/*", 
-                "monaco-editor*", 
                 "monaco-languageclient", 
                 "@eclipse-glsp/*",
                 "sprotty*",
                 "inversify"
+            ],
+            "enabled": false
+        },
+        {
+            "description": "Disable all non-easy upgradable packages release/12.0",
+            "matchDepNames": [
+                "monaco-editor*", 
+            ],
+            "matchBaseBranches": [
+                "release/12.0",
             ],
             "enabled": false
         },
