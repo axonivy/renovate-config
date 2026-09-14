@@ -60,8 +60,6 @@
         {
             "description": "Disable all non-easy upgradable packages",
             "matchDepNames": [
-                "@codingame/*", 
-                "monaco-languageclient", 
                 "@eclipse-glsp/*",
                 "sprotty*",
                 "inversify"
@@ -71,7 +69,10 @@
         {
             "description": "Disable all non-easy upgradable packages release/12.0",
             "matchDepNames": [
-                "monaco-editor*", 
+                "monaco-editor*",
+                "vscode",
+                "@codingame/*", 
+                "monaco-languageclient"
             ],
             "matchBaseBranches": [
                 "release/12.0",
