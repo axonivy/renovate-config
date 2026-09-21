@@ -62,6 +62,7 @@
             "matchDepNames": [
                 "@eclipse-glsp/*",
                 "sprotty*",
+                "snabbdom",
                 "inversify"
             ],
             "enabled": false
