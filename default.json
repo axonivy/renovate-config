@@ -5,8 +5,8 @@
         "config:recommended"
     ],
     "baseBranchPatterns": [
-        "master",
-        "release/12.0"
+        "release/12.0",
+        "release/14.0"
     ],
     "labels": [
         "dependencies"
@@ -16,7 +16,8 @@
         {
             "description": "Disable major upgrades for release branches",
             "matchBaseBranches": [
-                "release/12.0"
+                "release/12.0",
+                "release/14.0"
             ],
             "matchUpdateTypes": [
                 "major"
