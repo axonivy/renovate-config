@@ -56,7 +56,8 @@
                 "mcr.microsoft.com/playwright"
             ],
             "automerge": true,
-            "groupName": "playwright.tests"
+            "groupName": "playwright.tests",
+            "groupSlug": "playwright.tests"
         },
         {
             "description": "Disable all non-easy upgradable packages",
